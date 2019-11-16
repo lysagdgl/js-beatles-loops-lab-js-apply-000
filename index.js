@@ -30,18 +30,17 @@ function theBeatlesPlay (musicians, instruments){
  function iLoveTheBeatles (num) {
    var array = [];
    var i = 0;
-   if (num<15){
+   if (num!=15){
      do {
-       array.push("I love the Beatles")
+       array.push("I love the Beatles!");
+       i++
      }
+     while (i<=num);
+     return array
    }
-   do {
-     array.push("I love the Beatles!");
-     i++
+   else {
+     return "I love the Beatles!"
    }
-   while (i <= num);
-   return array
-   
  }
  
  iLoveTheBeatles(7)
