@@ -30,7 +30,7 @@ function theBeatlesPlay (musicians, instruments){
  function iLoveTheBeatles (num) {
    var array = [];
    var i = 0;
-   if (num!=15){
+   if (num!=17){
      do {
        array.push("I love the Beatles!");
        i++
@@ -44,6 +44,7 @@ function theBeatlesPlay (musicians, instruments){
  }
  
  iLoveTheBeatles(7)
+ iLoveTheBeatles(17)
  
  
  
